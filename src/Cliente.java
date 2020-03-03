@@ -1,15 +1,22 @@
-
 public class Cliente {
 	
-	public String nome;
+	
+	private String nome;
 
-	public String cpf;
+	private String cpf;
 	
-	public Conta conta;
+	private Conta conta;
+	
+public String getNome () {
+	return nome;
+}
+	
+public Void setNome () {
+	
+	return ();
 	
 	
-	
-	
+}
 	
 
 }
