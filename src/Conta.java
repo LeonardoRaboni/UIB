@@ -57,6 +57,12 @@ public class Conta {
 			debitar (valor);
 			contaDestino.creditar(valor);
 		}
+
+		@Override
+		public String toString() {
+			return "Conta [numero=" + numero + ", saldo=" + saldo + ", donoDaConta=" + donoDaConta.getNome() + "]";
+		}
+		
 		
 		
 		}

@@ -37,5 +37,10 @@ public class Cliente {
 		this.conta = conta;
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Cliente [nome=" + nome + ", cpf=" + cpf + ", conta=" + conta + "]";
+	}
 	
 }
