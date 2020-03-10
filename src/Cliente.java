@@ -7,16 +7,35 @@ public class Cliente {
 	
 	private Conta conta;
 	
-public String getNome () {
+	
+	
+    public String getCpf () {
+	return cpf;
+}
+
+    public void setCpf (String cpf) {
+	this.cpf = cpf;
+}
+	
+    public String getNome () {
+	
 	return nome;
 }
-	
-public Void setNome () {
-	
-	return ();
-	
-	
-}
-	
 
+    public void setNome (String nome) {
+
+	this.nome = nome;
+}
+
+	public Conta getConta () {
+		
+		return conta;
+		
+	}
+
+	public void setConta (Conta conta) {
+		this.conta = conta;
+		
+	}
+	
 }
